@@ -2,8 +2,8 @@ package acc;
 
 public class SavingAcc extends Account{
 
+	String accountType= "Savings Account";
 	protected double interest_rate=0.12;
-	protected double tot;
 	
 	@Override
 	public double getinterest() {
