@@ -28,26 +28,8 @@ public class Main {
 					account.withdrow(amount);
 					break;
 			}
-			
+			account.getinterest();
 			System.out.println(account.toString());
 			
-			//Account savingAccount = new SavingAcc();
-			//Account FixedAccount = new FixedAcc();
-			
-				 /*System.out.println("Enter your name");  
-				 String name=input.next();
-				 System.out.println("Enter your amount of deposit");  
-				 double amount = input.nextDouble();
-				 amount =savingAccount.Deposit();
-				 System.out.println("Your current balance is : "+ amount);
-				 System.out.println("Enter your amount of withdrow");  
-				 amount = input.nextDouble();
-				 amount =savingAccount.withdrow();
-				 System.out.println("Your current balance is : "+ amount);
-				 double interest = savingAccount.getinterest();
-				 System.out.println("----------------------------------------");
-				 System.out.println("DETAILS");
-				 System.out.println(" Hi "+name + ", " + amount + " is your current balance of  your account and your interest per month is "+ interest);
-				 input.close();  */
 			}
 }

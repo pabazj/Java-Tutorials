@@ -11,13 +11,12 @@ public class SavingAcc extends Account{
 	@Override
 	public double getinterest() {
 		monthly_interest =balance*interest_rate;
-		System.out.println(monthly_interest);
 		return monthly_interest;
 	}
 	
 	@Override
 	public String toString(){
-		return "Saving account has the "+ balance+ " with the interest" + monthly_interest;
+		return "Saving account has the balance of : "+ balance+ " and the interest per month is : " + monthly_interest;
 		
 	}
 

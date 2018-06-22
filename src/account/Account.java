@@ -8,10 +8,8 @@ abstract public class Account {
 		Saving,
 		Fixed
 	}
-	//public String accountType; 
 	double balance=15000;
 	double interest_rate;
-	//double amount =0;
 	double monthly_interest;
 	
 	public void  Deposit (double amount){
