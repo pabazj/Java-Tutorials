@@ -12,7 +12,7 @@ public class FixedAcc extends Account {
 	}
 	
 	public String toString(){
-		return "Fixed account has the"+ balance+ "with the interest" + monthly_interest;
+		return "Fixed account has the balance of : "+ balance+ " and the interest per month is : " + monthly_interest;
 		
 	}
 
