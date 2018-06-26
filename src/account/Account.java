@@ -1,16 +1,22 @@
-package account;
+package Account;
 
 import java.util.Scanner;
 
 abstract public class Account {
 
-	public enum AccountType{
-		Saving,
-		Fixed
+	protected double balance=15000;
+	protected double monthly_interest;
+	
+	public double getBalance(){
+		return balance;
 	}
-	double balance=15000;
-	double interest_rate;
-	double monthly_interest;
+	public void setBalance(double balance){
+		this.balance = balance;
+	}
+	
+	public double getMonthlyInterest(){
+		return monthly_interest;
+	}
 	
 	public void  Deposit (double amount){
 		balance +=amount;

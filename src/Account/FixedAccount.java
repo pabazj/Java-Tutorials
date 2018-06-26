@@ -1,10 +1,13 @@
-package account;
+package Account;
 
-public class FixedAcc extends Account {
+public class FixedAccount extends Account {
 	
 	String accountType= "Fixed Account";
-	protected double interest_rate=0.18;
+	private double interest_rate=0.18;
 
+	public void setInterestRate(double interest_rate){
+		this.interest_rate = interest_rate;
+	}
 	@Override
 	public double getinterest() {
 		monthly_interest =balance*interest_rate;
