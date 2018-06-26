@@ -1,11 +1,11 @@
-package account;
+package Account;
 
-public class SavingAcc extends Account{
+public class SavingAccount extends Account{
 
 	String accountType= "Savings Account";
-	protected double interest_rate=0.12;
+	private double interest_rate=0.12;
 	
-	public SavingAcc(double amount) {
+	public SavingAccount(double amount) {
 	}
 
 	@Override

@@ -1,6 +1,8 @@
-package account;
+package Main;
 
 import java.util.Scanner;
+
+import Account.SavingAccount;
 
 public class Main {
 	
@@ -11,7 +13,7 @@ public class Main {
 			System.out.println("Enter your acc number");  
 			double amount = input.nextDouble();
 			
-			SavingAcc account=new SavingAcc(amount);
+			SavingAccount account=new SavingAccount(amount);
 			
 			System.out.println("Enter 1 for deposit and 2 for withdrow");
 			int choice =input.nextInt();
@@ -33,3 +35,4 @@ public class Main {
 			
 			}
 }
+
